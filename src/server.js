@@ -4,7 +4,7 @@ import express from 'express';
 import pino from 'pino-http';
 import cors from 'cors';
 
-import studentsRouter from './routers/students.js';
+import studentsRouter from './routes/students.js';
 import { getEnvVar } from './utils/getEnvVar.js';
 // Імпортуємо middleware
 import { errorHandler } from './middlewares/errorHandler.js';
